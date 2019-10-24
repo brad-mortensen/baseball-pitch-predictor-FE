@@ -46,7 +46,11 @@ header h1 {
   right: 0;
 }
 
-.pitchers-mound {
+#pitchers-mound {
   align-self: center;
   transform: rotate(-45deg);
+}
+
+.clicked {
+  background-color: yellow;
 }
