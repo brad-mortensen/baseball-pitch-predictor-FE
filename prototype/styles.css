@@ -10,19 +10,19 @@ header h1 {
 .diamond {
   position: relative;
   display: flex;
-  border: 2px solid black;
+  border: 2px solid burlywood;
   width: 400px;
   height: 400px;
   transform: rotate(45deg);
   margin: 150px 0 0 100px;
   justify-content: center;
-
+  background: green;
 }
 
 .base {
-  width: 50px;
-  height: 50px;
-  border: 1px solid black;
+  width: 25px;
+  height: 25px;
+  background: white;
   position: absolute;
 }
 
@@ -44,11 +44,21 @@ header h1 {
 .home {
   bottom: 0;
   right: 0;
+  width: 50px;
+  height: 50px;
+  clip-path: polygon(17% 66%, 63% 16%, 100% 54%, 100% 100%, 51% 100%);
 }
 
 #pitchers-mound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   align-self: center;
+  width: 150px;
+  height: 150px;
   transform: rotate(-45deg);
+  background: burlywood;
+  border-radius:  50%;
 }
 
 .clicked {
