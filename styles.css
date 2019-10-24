@@ -1,0 +1,52 @@
+.container {
+  margin: 0 auto;
+  /* width: 1000px; */
+}
+
+header h1 {
+  color: red;
+}
+
+.diamond {
+  position: relative;
+  display: flex;
+  border: 2px solid black;
+  width: 400px;
+  height: 400px;
+  transform: rotate(45deg);
+  margin: 150px 0 0 100px;
+  justify-content: center;
+
+}
+
+.base {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  position: absolute;
+}
+
+.first {
+  top: 0;
+  right: 0;
+}
+
+.second {
+  top: 0;
+  left: 0;
+}
+
+.third {
+  bottom: 0;
+  left: 0;
+}
+
+.home {
+  bottom: 0;
+  right: 0;
+}
+
+.pitchers-mound {
+  align-self: center;
+  transform: rotate(-45deg);
+}
