@@ -11,8 +11,8 @@ header h1 {
   position: relative;
   display: flex;
   border: 2px solid burlywood;
-  width: 400px;
-  height: 400px;
+  width: 420px;
+  height: 420px;
   transform: rotate(45deg);
   margin: 150px 0 0 100px;
   justify-content: center;
@@ -20,8 +20,8 @@ header h1 {
 }
 
 .base {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   background: white;
   position: absolute;
 }
