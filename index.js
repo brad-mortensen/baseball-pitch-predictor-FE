@@ -6,3 +6,4 @@ const handleBaseChange = e => {
     el.add("clicked")
 };
 [...bases].forEach(base => base.addEventListener('click', handleBaseChange));
+
